@@ -43,8 +43,8 @@ total_loss = Loss(seg_logits, instance_label.long())
 
 
 ### 一些确实训练过的证明
-![img.png](img.png)
-![img_1.png](img_1.png)
+![img.png](docs/img.png)
+![img_1.png](docs/img_1.png)
 
 在训练时，可以使用tensorboard监测，而我这里是手动加载训练日志。
 
@@ -73,7 +73,7 @@ optional arguments:
 
 具体的方法为
 
-![img_2.png](img_2.png)
+![img_2.png](docs/img_2.png)
 
 其中，多条直线拟合用到的方法是`cv2.HoughLinesP`
 
